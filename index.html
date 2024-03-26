@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:url" content="https://ashanticheat.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AshAC">
+    <meta property="og:description" content="AshAC is an upcomming Minecraft anticheat">
+    <meta property="og:site_name" content="AshAC">
+    <title>Ash Anticheat</title>
+    <meta property="og:locale" content="en_US">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light background fixed-top">
+    <a class="navbar-brand" href="#" onclick="smoothScroll('jumbo')">
+        <p>Ash</p>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" onclick="smoothScroll('jumbo')"><i class="fa fa-home"
+                                                                                aria-hidden="true"></i>
+                    Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about" onclick="smoothScroll('about')"><i class="fa fa-info-circle"
+                                                                                     aria-hidden="true"></i>
+                    About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#features" onclick="smoothScroll('features')"><i class="fas fa-list-alt"
+                                                                                           aria-hidden="true"></i>
+                    Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cheats-detected" onclick="smoothScroll('cheats-detected')"><i
+                        class="fa fa-address-book" aria-hidden="true"></i>
+                    Cheats Detected</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/AshAnticheat/" target="_blank">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header id="jumbo">
+    <div class="jumbotron site-section info-jumbotron" style="padding-top: 150px; padding-bottom: 100px">
+        <h1 class="display-4">Ash Anticheat</h1>
+        <p class="lead">Ash Anticheat is an upcomming Anticheat for Bukkit!</p>
+    </div>
+</header>
+<header id="about">
+    <div class="container site-section about">
+        <div class="row justify-content-center">
+            <div class="col col-xs-8 col-sm-1 col-md-3 text-center">
+                <h2>About</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="about-summary">
+            <h4>What is Ash Anticheat?</h4>
+            Ash is an upcomming Anticheat with the goal of being optimized and an advanced anticheat.
+            <p></p>
+            Ash currently contains 7 checks which analyze players for suspicious combat,
+            interaction, movement, and malicious exploitation within the protocol. Ash's checks will
+            only observe the players' actions and collect statistics based on the observations. No
+            checks test for cheats by interrupting the game experience, such as spawning NPCs or
+            applying knock-back.
+        </div>
+    </div>
+</header>
+<header id="features">
+    <div class="container site-section about">
+        <div class="about-features">
+            <div class="row justify-content-center">
+                <div class="col col-xs-8 col-sm-1 col-md-3 text-center">
+                    <h2>Features</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="about-features">
+                <h4>Asynchronous</h4>
+                Most of the Ash plugin runs on other threads which will drastically reduce lag when using Ash. We also have an adaptating thread system to fit your server's capabilities.
+                <p></p>
+                <h4>Dependency Free</h4>
+                Unlike many other anticheat, Ash runs on NMS and no ProtocolLib is currently required.
+                <p></p>
+                <h4>Simple, but powerful checks</h4>
+                Our current checks are simple, however they are almost impossible to false flag for the most part.
+                <p></p>
+                <h4>Movement Checking</h4>
+                Currently, Ash is only focused on movement cheats but will be focused on more soon.
+                <p></p>
+                <h4>Customizable Configuration</h4>
+                In Ash, you can customize anything! From the amounts of violations to the check settings.
+                <p></p>
+            </div>
+        </div>
+    </div>
+</header>
+<header id="cheats-detected">
+    <div class="container site-section" style="padding-bottom: 100px">
+        <div class="row justify-content-center">
+            <div class="col col-xs-8 col-sm-4 col-md-3 text-center">
+                <h2>Cheats Detected</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Fight Critical's</h5>
+                    <p class="card-test">Verifies movement when attempting to land critical hits.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Fly</h5>
+                    <p class="card-test">Verifies that a player falls when not standing on anything.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Speed (Movement)</h5>
+                    <p class="card-test">Verifies horizontal movement velocity.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">BadPackets</h5>
+                    <p class="card-test">Analyzes for badly fabricated packets.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Ground Spoof</h5>
+                    <p class="card-test">Validates the integrity of the "ground" flag in PacketPlayInFlying packets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<footer class="py-5 background">
+    <div class="container">
+        <div class="footer">
+            Copyright &copy; <script>document.write(new Date().getFullYear())</script> Ash Anticheat | Thanks to @missionarydev for the original current website
+        </div>
+    </div>
+</footer>
+<a id="back-to-the-top" href="#" class="btn btn-primary btn-lg back-to-the-top btn-custom-hover" role="button"
+   title="Return to the top"
+   data-toggle="tooltip" data-placement="left"><i class="fas fa-arrow-up"></i> </a>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
